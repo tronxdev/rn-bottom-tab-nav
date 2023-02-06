@@ -1,6 +1,37 @@
 {
-  "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
-  }
+    "target": "es2015",
+    "module": "es2015",
+    "allowJs": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "rootDir": ".",
+    "importHelpers": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "preserveConstEnums": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "noEmitHelpers": true
+  },
+  "exclude": [
+    "App.js",
+    "App.test.js",
+    "build",
+    "node_modules"
+  ],
+  "compileOnSave": false,
+  "extends": "expo/tsconfig.base"
 }

@@ -1,9 +1,11 @@
-# NativeBase TypeScript Expo Template
+# Spiel Test
 
-The official NativeBase TypeScript template for [Expo](https://docs.expo.io/)
+### INSTALL DEPENDENCIES
+```
+npm i
+```
 
-## Usage
-
-```sh
-expo init my-app --template @native-base/expo-template-typescript
+### RUN
+```
+npx expo start
 ```
