@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "test-spiel",
-    "slug": "test-spiel",
+    "name": "rn-bottom-tab-nav",
+    "slug": "rn-bottom-tab-nav",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
